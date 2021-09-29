@@ -87,7 +87,7 @@ function App() {
                 paddingLeft: "50px"
               }}
               key={columnId}
-            > <div style={{display:"flex" , flexDirection:"row" , gap:"1rem", alignItems:"center" ,justifyContent:"center"}}>
+            > <div style={{display:"flex" , flexDirection:"row" , gap:"1rem", alignItems:"center"}}>
               <div style={{marginLeft:"12px", fontSize:"18px" , fontWeight:"bolder"}}>{column.name}</div>
               <div style={{backgroundColor:"#C0C0C0" ,color:"white" , display:"flex",
                 justifyContent:"center", borderRadius:"2px",

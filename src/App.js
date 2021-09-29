@@ -108,7 +108,7 @@ function App() {
                           width: "300px",
                           minHeight:"100px"
                         }}
-                      >   {console.log("items" , column.items.length)}
+                      >
                         {column.items.map((item, index) => {
                           return (
                             <Draggable

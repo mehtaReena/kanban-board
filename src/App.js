@@ -91,7 +91,7 @@ function App() {
               <div style={{marginLeft:"12px", fontSize:"18px" , fontWeight:"bolder"}}>{column.name}</div>
               <div style={{backgroundColor:"#C0C0C0" ,color:"white" , display:"flex",
                 justifyContent:"center", borderRadius:"2px",
-              padding:"2px",width:"15px", height:"15px", alignItems:"center"}}>{column.items.length}</div>
+              padding:"2px",width:"18px", height:"18px", alignItems:"center"}}>{column.items.length}</div>
               </div>
               <div style={{ margin:7 }}>
                 <Droppable droppableId={columnId} key={columnId}>
